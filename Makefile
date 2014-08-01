@@ -18,7 +18,7 @@ ifeq ($(UNAME_S), Darwin)
 endif
 
 
-all: $(filename).tex $(neededfiles) latex clean
+all: $(filename).tex $(neededfiles) latex 
 latex:
 	$(pdflatexcmd) $(filename)
 	$(bibtexcmd) $(filename)
