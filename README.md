@@ -15,7 +15,7 @@ Arbeit.
 
 Nach einer kurzen Vorstellung der Tourismusbranche in Kapitel *5 Vorstellung der
 Tourismusbranche* werden die relevanten Technologien in Kapitel *6 Bewertung der
-Technologien* bewertet und miteinander Verglichen.
+Technologien* bewertet und miteinander verglichen.
 In den Kapiteln *7 Mögliche Einsatzzwecke* und *8 Mögliche Einsatzorte* werden
 dann Handlungsempfehlungen bezüglich möglichen Einsatzzwecken und Einsatzorten
 gegeben.
