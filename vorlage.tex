@@ -35,6 +35,8 @@
 \usepackage{fancyhdr}
 \usepackage{float} % Notwendig fuer figure[h]
 \usepackage[printonlyused]{acronym}
+\usepackage[activate={true,nocompatibility},final,tracking=false,kerning=true,spacing=true,factor=1100,stretch=20,shrink=20]{microtype}
+
 
 \newif\iflistoffigures
 \newif\iflistoftables
@@ -136,7 +138,7 @@
 \setcounter{page}{\theromanPagenumber}
 %\addcontentsline{toc}{section}{Literatur-- und Quellenverzeichnis}
 \renewcommand{\refname}{Literatur-- und Quellenverzeichnis}
-\bibliographystyle{apalike}
+\bibliographystyle{alpha}
 \bibliography{pb-literatur}
 \onehalfspacing
 \clearpage
