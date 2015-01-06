@@ -101,17 +101,22 @@ QR Codes können auch ohne technisches Verständnis kostenlos erstellt\footnote{
 
 \subsection{NFC Tags} % (fold)
 \label{sub:nfc_tags}
-\buzz{NFC} („Near Field Communication“) bezeichnet eine Technologie zur drahtlosen Übertragung von Daten zwischen aktiven Geräten\footnote{z.B. Smartphones oder stationäre Schreib–Lesegeräte} oder zwischen einem aktiven Gerät und einer passiven Markierung bzw. englisch \url{Tag}. Der NFC Tag bezieht seine Energie über seine Antenne vom Schreib–Lesegerät. Die theoretisch maximale Entfernung zwischen Sender und Empfänger beträgt 10cm, in der Praxis sind jedoch wenige Millimeter bis ca. 4cm üblich. Die Datenübertragungsrate beträgt hierbei bei maximal 414 Kilobit pro Sekunde. Außer der räumlichen Nähe ist keinerlei vorherige Konfiguration\footnote{wie z.B. das bei Bluetooth notwendige Pairing} notwendig.\footnote{vgl. \cite{google:nfc}, 2:52 Min.}
+\buzz{NFC} („Near Field Communication“) bezeichnet eine Technologie zur drahtlosen Übertragung von Daten zwischen elektronischen Geräten. Dies können aktive Geräte\footnote{z.B. Smartphones oder stationäre Schreib–Lesegeräte} oder ein aktives Gerät und eine passive Markierung, üblicherweise englisch als \url{Tag} bezeichnet, sein. Der NFC Tag bezieht seine Energie über seine Antenne vom Schreib–Lesegerät. Die theoretisch maximale Entfernung zwischen Sender und Empfänger beträgt 10cm, in der Praxis sind jedoch wenige Millimeter bis ca. 4cm üblich. Die Datenübertragungsrate beträgt hierbei bei maximal 414 Kilobit pro Sekunde. Außer der räumlichen Nähe ist keinerlei vorherige Konfiguration\footnote{wie z.B. das bei Bluetooth notwendige Pairing} notwendig.\footnote{vgl. \cite{nfcforum:about} sowie \cite{google:nfc}, 2:52 Min.}
 
 NFC Tags sind es in verschiedenen Formen und Größen erhältlich. Üblich sind z.B. die Integration in Schlüsselanhänger oder Scheckkarten, aber auch Aufkleber, die an bzw. hinter beliebigen, dünnen Gegenständen platziert werden können. Die Speicherkapazität beträgt zwischen 96 Bytes (Type 1 Tag) und 32 Kilobytes (Type 4 Tag).\footnote{\cite{nfcforum:spec}, Seite 14} NFC Tags können mithilfe eines Smartphones und kostenlos erhältlichen Anwendungen ohne technisches Verständnis beschrieben werden.
 
-Neben Übertragung von Text oder Dateien ist durch NFC auch der Aufruf von Webseiten, die Übergabe von Konfigurationsparametern oder die Veränderung von Einstellungen oder das Ausführen von beliebigen, zuvor definierten Anwendungen auf dem Smartphone möglich.
+Neben Übertragung von Text oder Dateien ist durch NFC auch der Aufruf von Webseiten, die Übergabe von Konfigurations- oder Verbindungsparametern oder die Veränderung von Einstellungen oder das Ausführen von beliebigen, zuvor definierten Anwendungen auf dem Smartphone möglich.
 
 % subsection nfc_tags (end)
 
 \subsection{Bluetooth} % (fold)
 \label{sub:bluetooth}
 
+\buzz{Bluetooth} ist eine Technologie zum Aufbau eines \ac{WPAN}, also eines kabellosen, räumlich eng begrenzten\footnote{max. 10 Meter} Netzwerks. Hierbei werden durch das sogenannte \buzz{Pairing} Geräte miteinander verbunden, ohne dass hierzu weitere Infrastrukturelemente notwendig wären.\footnote{vgl. \cite{bluetooth:spec}, Seite 1, 8} Hierbei werden verschiedene Anwendungsfälle und Geräteklassen durch verschiedene \buzz{Profile} unterstützt.  Die Datenübertragungsrate beträgt hierbei bei maximal 24 Megabit pro Sekunde.\footnote{vgl. \cite{bluetooth:sigv1}, Seite 17f sowie \cite{bluetooth:sigv3}, Seite 277}
+
+Auch wenn komplexere Fälle möglich sind, bestehen typische Bluetooth–Verbindungen beim Endverbraucher zwischen zwei Geräten, meist einem Sender und einem Empfänger. Beispiele hierfür ist der Anschluss von Tastatur und Maus an ein Notebook oder das Abspielen von Musik auf Bluetooth–Lautsprechern. Auch die Übertragung von elektronischen Visitenkarten oder anderen Dateien ist möglich. Die Verbindung wird hierbei auf Betriebssystemebene zwischen den Geräten hergestellt, das Senden wird i.d.R. durch die Auswahl eines entsprechenden Menüpunktes in der jeweiligen Anwendung initiiert. Der Empfänger entscheidet dann per Dialogfenster, ob er die Daten empfangen möchte.
+
+Aufgrund der Vielzahl von Übertragungsprofilen, von denen jedes Gerät nur eine Teilmenge unterstützt kann nicht davon ausgegangen werden, dass jedes Bluetooth–Gerät mit jedem anderen auf die gewünschte Art kommunizieren kann, selbst wenn das Pairing erfolgreich ist.
 % subsection bluetooth (end)
 
 \subsection{Bluetooth Low Energy} % (fold)
