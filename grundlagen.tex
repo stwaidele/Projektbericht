@@ -112,7 +112,7 @@ Neben Übertragung von Text oder Dateien ist durch NFC auch der Aufruf von Webse
 \subsection{Bluetooth} % (fold)
 \label{sub:bluetooth}
 
-\buzz{Bluetooth} ist eine Technologie zum Aufbau eines \ac{WPAN}, also eines kabellosen, räumlich eng begrenzten\footnote{max. 10 Meter} Netzwerks. Hierbei werden durch das sogenannte \buzz{Pairing} Geräte miteinander verbunden, ohne dass hierzu weitere Infrastrukturelemente notwendig wären.\footnote{vgl. \cite{bluetooth:spec}, Seite 1, 8} Hierbei werden verschiedene Anwendungsfälle und Geräteklassen durch verschiedene \buzz{Profile} unterstützt.  Die Datenübertragungsrate beträgt hierbei bei maximal 24 Megabit pro Sekunde.\footnote{vgl. \cite{bluetooth:sigv1}, Seite 17f sowie \cite{bluetooth:sigv3}, Seite 277}
+\buzz{Bluetooth} ist eine Technologie zum Aufbau eines \ac{WPAN}, also eines kabellosen, räumlich eng begrenzten\footnote{i.d.R. 10 Meter, jedoch nicht von der Spezifikation beschränkt, vgl. \cite{bluetooth:smart}} Netzwerks. Hierbei werden durch das sogenannte \buzz{Pairing} Geräte miteinander verbunden, ohne dass hierzu weitere Infrastrukturelemente notwendig wären.\footnote{vgl. \cite{bluetooth:spec}, Seite 1, 8} Hierbei werden verschiedene Anwendungsfälle und Geräteklassen durch verschiedene \buzz{Profile} unterstützt.  Die Datenübertragungsrate beträgt hierbei bei maximal 24 Megabit pro Sekunde.\footnote{vgl. \cite{bluetooth:sigv1}, Seite 17f sowie \cite{bluetooth:sigv3}, Seite 277}
 
 Auch wenn komplexere Fälle möglich sind, bestehen typische Bluetooth–Verbindungen beim Endverbraucher zwischen zwei Geräten, meist einem Sender und einem Empfänger. Beispiele hierfür ist der Anschluss von Tastatur und Maus an ein Notebook oder das Abspielen von Musik auf Bluetooth–Lautsprechern. Auch die Übertragung von elektronischen Visitenkarten oder anderen Dateien ist möglich. Die Verbindung wird hierbei auf Betriebssystemebene zwischen den Geräten hergestellt, das Senden wird i.d.R. durch die Auswahl eines entsprechenden Menüpunktes in der jeweiligen Anwendung initiiert. Der Empfänger entscheidet dann per Dialogfenster, ob er die Daten empfangen möchte.
 
@@ -121,51 +121,33 @@ Aufgrund der Vielzahl von Übertragungsprofilen, von denen jedes Gerät nur eine
 
 \subsection{Bluetooth Low Energy} % (fold)
 \label{sub:bluetooth_low_energy}
-z.B. iBeacon
 
-\todo{
-\url{http://t3n.de/news/apple-ibeacon-nfc-499992/} \\
-\url{http://www.huffingtonpost.de/christian-eggert/wie-ibeacon-unser-leben-v_b_5436171.html}\\
-\url{http://de.wikipedia.org/wiki/IBeacon} }
+Das in der Bluetooth Spezifikation 4.0 eingeführte Low Energy Profil (BLE\acused{BLE}) ermöglicht Geräte mit extrem niedrigem Stromverbrauch. Hierdurch sind Anwendungen möglich, welche wie bei der Nutzung von passiven Elementen unabhängig von weiterer Infrastruktur sind, und trotzdem von den Möglichkeiten aktiver Sendern\footnote{z.B. das Senden von Analysedaten oder Messung des Abstands zwischen Sender und Empfänger} profitieren können.\footnote{vgl. \cite{bluetooth:smart}}
+
+BLE Geräte sind auch unter den Markenbezeichnungen \buzz{iBeacon} erhältlich. 
 % subsection bluetooth_low_energy (end)
 
-\subsection{Kurzlinks} % (fold)
+\subsection{Lesbare Internetadressen} % (fold)
 \label{sub:kurzlinks}
+Die am wenigsten technische Möglichkeit, Kunden auf das digitale Angebot eines Unternehmens hinzuweisen ist die Angabe einer menschenlesbaren \ac{URL}, also Internetadresse\footnote{Obwohl der Begriff URL eine Internetadresse in sehr allgemeiner Form beschreibt, wird er in dieser Arbeit der Lesbarkeit halber synonym zu „WWW–Adresse“ verwendet.} auf Drucksachen. Diese werden vom Kunden in das Smartphone oder in den Webbrowser seines Computers von Hand eingegeben. Je länger diese URL ist, desto schwieriger ist dies.
 
+Daher ist ab einer gewissen Länge bzw. Komplexität der Adresse eine Methode notwendig, mit der diese kürzer bzw. einfacher zu machen. Hierfür stehen kostenlose Internet–Dienste\footnote{z.B. Goo.gl, Ow.ly, FixURL.de oder Bit.ly} sowie Funktionen des \ac{CMS}\footnote{Hier werden kurze, freundliche Adressen wie z.B. \url{http://DieKrone.de/feedback} zur eigentlichen Seite \url{https://secure.holidaycheck.de/hotelbewertung_abgeben.php?action=hotelselect&entityId=161279} weitergeleitet.} zur Verfügung. 
 % subsection kurzlinks (end)
 
-\subsection{Internet--Nachrichtendienste} % (fold)
+\subsection{Nachrichtendienste und Chatsysteme} % (fold)
 \label{sub:internet_nachrichtendienste}
-z.B. Twitter für nicht an eine Mobilfunknummer gebundene Nachrichtendienste. Auch: iMessage, evt. Facebook Messenger
+Kurznachrichtendienste und Chatsysteme wie z.B. Whatsapp, SMS, Twitter, Facebook–Messenger, iMessage oder Skype können zur digitalen Kommunikation mit Kunden genutzt werden. Die Kommunikationspartner werden hierbei entweder durch Benutzernamen identifiziert, wodurch jedes internetfähige Gerät genutzt werden kann, oder die Kommunikation wird über die Mobilfunknummer der Beteiligen vermittelt, was die Nutzung eines Smartphones notwendig macht.
 
-Aufgrund der hohen Anforderung bzgl. syncroner Kommunikation ist diese Möglichkeit nicht optimal für kleine Betriebe und wird nur im Grundlagenteil behandelt.
+Sowohl Twitter als auch Facebook können hierbei nicht nur zur privaten, sondern auch zur öffentlichen Kommunikation genutzt werden.
+
+Aufgrund der hohen Anforderung bzgl. synchroner Kommunikation ist diese Möglichkeit nicht optimal für kleine Betriebe. Die eigentliche Kontaktaufnahme muss zudem über eine der anderen Methoden geschehen. Daher werden Nachrichtendienste und Chatsysteme hier nur der Vollständigkeit erwähnt.
 % subsection internet_nachrichtendienste (end)
-
-\subsection{Mobilfunk--Nachrichtendienste} % (fold)
-\label{sub:mobilfunk_nachrichtendienste}
-
-
-z.B. WhatsApp für Nachrichtendienste, die an eine Mobilfunknummer gebunden sind, selbst wenn die eigentliche Kommunikation über Internettechniken abgewickelt wird. Auch: SMS.
-
-Aufgrund der hohen Anforderung bzgl. synchroner Kommunikation ist diese Möglichkeit nicht optimal für kleine Betriebe und wird nur im Grundlagenteil behandelt.
-
-\todo{
-Messenger statt FB:
-\url{http://www.fur.de/ra/news-daten/aktueller-newsletter/nl-0714-die-ra-customer-journey/}
-bzw.
-\url{http://www.fur.de/fileadmin/user_upload/Newsletter/Newsletter_2014Juli/RA_Newsletter_07-2014_CustomerJourney.pdf}
-
-\url{http://blog.trendone.com/wp-content/uploads/2009/11/Pressemeldung-Outernet-White-Paper-TrendONE-November-2009.pdf} \\
-\url{http://www.usabilityblog.de/blog-autoren/eric-horster/}
-}
-% subsection mobilfunk_nachrichtendienste (end)
 
 \subsection{Hotel--Apps} % (fold)
 \label{sub:hotel_apps}
+Speziell auf das Hotel oder auf das \ac{PMS} zugeschnittene Smartphone–Apps\footnote{z.B. Protel Voyager} ermöglichen eine hohe Integrationsstufe und zielgerichtete Kommunikation. Auch sind Funktionen wie die Abfrage von Reservierungs– oder Rechnungsdaten oder Bestellungen beim Zimmerservice möglich.
 
-z.B. Protel „Voyager“
-
-Aufgrund der hohen Anforderung bzgl. Kapitaleinsatz ist diese Möglichkeit nicht optimal für kleine Betriebe und wird nur im Grundlagenteil behandelt.
+Die eigentliche Kontaktaufnahme muss zudem über eine der anderen Methoden geschehen, damit der Gast die Anwendung installiert. Des  weiteren richtet sich das Angebot nur an tatsächliche Gäste, nicht wie die anderen hier vorgestellten Technologien auch an Interessenten. Daher werden Hotel–Apps hier nur der Vollständigkeit erwähnt.
 
 % subsection hotel_apps (end)
 
