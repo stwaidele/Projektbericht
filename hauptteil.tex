@@ -57,19 +57,24 @@ Touristische Betriebe können durch Lenkung der digitalen Aktivitäten der Kunde
 \footnotetext{Rückseite der Visitenkarte eines Hotels}
 % subsection beeinflussung_customer_journey (end)
 
-\subsection{Kunde mit Information versorgen} % (fold)
+\subsection{Kunden mit Information versorgen} % (fold)
 \label{sub:kunde_mit_information_versorgen}
 Bei ausreichender Speicherkapazität des Wechselmediums kann der Kunde direkt mit Informationen versorgt werden. Hierfür bieten sich Kontaktinformationen\footnote{Als VCard formatierte Informationen lassen sich direkt in das Adressbuch von Smartphones importieren.}, Terminkalendereinträge oder erklärende Texte\footnote{z.B. zu Bildern, oder Öffnungszeiten} an.
 
 Während reine Informationstexte keinen oder nur sehr geringen Mehrwert gegenüber den gedruckten Informationen bieten, sind entsprechend formatierte Kontakt– oder Termininformationen für Kunden und Unternehmen nützlich, da durch sie die manuelle Eingabe in das Smartphone vermieden werden kann und somit diese Informationen wahrscheinlicher beim Kunden gespeichert werden.
-% subsection kunde_mit_information_versorgen (end)
 
-\subsection{Kunde auf eine Website führen} % (fold)
-\label{sub:kunde_auf_eine_website_fuhren}
-Durch den Wechsel des Kommunikationsmediums können Kunden auf Webseiten beliebiger Art geführt werden. Das Wechselmedium übergibt dazu die entsprechende \ac{URL}, die mit dem Webbrowser des Smartphones aufgerufen werden kann. Hierbei sollte es sich um eine für Mobilgeräte optimierte Seite handeln.
+Bei indirekten Zielen kann der Kunde auf Webseiten beliebiger Art geführt werden. Das Wechselmedium übergibt dazu die entsprechende \ac{URL}, die mit dem Webbrowser des Smartphones aufgerufen werden kann. Hierbei sollte es sich um eine für Mobilgeräte optimierte Seite handeln.
 
 Mögliche Zielseiten können die Unternehmenswebsite, der Firmeneintrag bei Bewertungsdiensten, das Profil des Betriebs bei Social Media Diensten, Gewinnspiele, eine Eintragung für den Newsletter oder auch die Downloadadresse der Betriebseigenen App sein. Somit können die entsprechenden Angebote beworben bzw. entsprechende Aktivitäten gefördert werden.
-% subsection kunde_auf_eine_website_fuhren (end)
+
+% subsection kunde_mit_information_versorgen (end)
+
+\subsection{Informationen von Kunden erhalten} % (fold)
+\label{sub:informationen_vom_kunden_erhalten}
+Durch den Einsatz von aktiven Elementen bzw. indirekten Zielen kann auch das Unternehmen Daten über seine Kunden sammeln. Dies kann in anonymer Form über die Zugriffsdaten der referenzierten Webseiten oder falls dies die eingesetzte Technologie dies ermöglicht einen Zugriffszähler im Wechselmedium\footnote{z.B. in Bluetooth Low Energy Geräten}. Durch mehrere Elemente kann auch der Pfad von Kunden erfasst oder geschätzt werden. Über die HTML5 Geolocation \ac{API} ließe sich sogar die exakte Position des Kunden beim Seitenabruf ermitteln.\footnote{z.B. \url{http://www.torbenleuschner.de/files/geo.htm}}
+
+Durch entsprechende Gestaltung der referenzierten Webseite können auch personalisierte Daten erfasst werden. Hierzu ist z.B. ein Newsletterangebot, die Abfrage von Kundenfeedback oder ein Gewinnspiel geeignet. Hierbei sind jedoch unbedingt die Vorschriften des Datenschutzgesetzes zu beachten.
+% subsection informationen_vom_kunden_erhalten (end)
 
 % section einsatzzwecke (end)
 
@@ -79,7 +84,14 @@ Mögliche Zielseiten können die Unternehmenswebsite, der Firmeneintrag bei Bewe
 
 \subsection{Bewertung QR Codes} % (fold)
 \label{sub:bewertung_qr_codes}
-Die maximale Speicherkapazität ist jedoch nur theoretisch erreichbar. Je größer die zu speichernde Datenmenge, desto feiner werden bei gleich bleibender Abbildungsgröße die zu scannenden Strukturen. Die Abbildungsgröße ist jedoch aufgrund der Nutzung der Smartphone–Kamera limitiert.\footnote{Auch bei extrem groß dargestellten QR–Codes muss dieser durch Anpassung des Abstandes dieser so verkleinert werden, dass er ganz von der Kamera erfasst wird.} So war keines der getesteten Smartphones\footnote{Apple iPhone 5 sowie Samsung Galaxy S5 mini} in der Lage, einen V40/L QR–Code zu erkennen. Auch bei kleineren Datenmengen treten bereits deutliche Unterschiede in der Erkennungsleistung sowohl zwischen den Geräten als auch zwischen den verwendeten Apps auf.
+
+QR Codes können für alle Quellmedien und für alle Zielmedien eingesetzt werden. Der zur Erstellung von Drucksachen ohnehin notwendige Workflow wird lediglich um die Erstellung des Codes erweitert, was mit Hilfe von kostenlosen Webdiensten ohne großen Aufwand möglich ist.\footnote{z.B. \url{http://www.racoindustries.com/barcodegenerator/2d/qr-code.aspx}} Die Kosten für identische QR–Codes beschränken sich somit lediglich auf ebendiese Erstellung bleiben unabhängig von der Ausbringungsmenge konstant. 
+
+QR Codes sind mit allen gängigen Smartphones lesbar, allerdings i.d.R. nicht mit vorinstallierter Software. Der Kunde muss somit einmalig vor der ersten Nutzung eine entsprechende Lese–App herunterladen und installieren. Vor jedem Lesen, muss diese aktiviert werden und mit der Kamera der QR Code erfasst werden. Hierbei kann es je nach Größe des gedruckten Codes, der Informationsdichte und den Lichtverhältnissen zu Fokusproblemen kommen, die das Lesen erschweren.   
+
+Die maximale Speicherkapazität ist somit nur theoretisch erreichbar. Je größer die zu speichernde Datenmenge, desto feiner werden bei gleich bleibender Abbildungsgröße die zu scannenden Strukturen. Die Abbildungsgröße ist jedoch aufgrund der Nutzung der Smartphone–Kamera limitiert.\footnote{Auch bei extrem groß dargestellten QR–Codes muss dieser durch Anpassung des Abstandes dieser so verkleinert werden, dass er ganz von der Kamera erfasst wird.} So war keines der getesteten Smartphones\footnote{Apple iPhone 5 sowie Samsung Galaxy S5 mini} in der Lage, einen V40 QR–Code zu erkennen. Auch bei kleineren Datenmengen treten bereits deutliche Unterschiede in der Erkennungsleistung sowohl zwischen den Geräten als auch zwischen den verwendeten Apps auf. Für die Übertragung einer \ac{URL}, Kontaktinformationen oder kurze erklärende Texte ist jedoch zuverlässig möglich.
+
+
 
 \todo{
 \url{http://www.nielsen.com/de/de/insights/presseseite/2012/nielsen-das-smartphone-als-shopping-companion.html} \\
@@ -94,7 +106,7 @@ Die maximale Speicherkapazität ist jedoch nur theoretisch erreichbar. Je größ
 % subsection bewertung_qr_codes (end)
 
 
-\subsection{Bewertung NFC–Tags} % (fold)
+\subsection{Bewertung NFC Tags} % (fold)
 \label{sub:bewertung_nfc_tags}
 
 
