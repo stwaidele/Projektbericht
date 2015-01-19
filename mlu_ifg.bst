@@ -398,7 +398,7 @@ FUNCTION {format.names}
   numnames 'namesleft :=
     { namesleft #0 > }
     { s nameptr
-      "{vv~}{ll}{, f.}{, jj}"
+      "{vv~}{ll}{, ff}{, jj}"
       format.name$
       bib.name.font
       bibinfo bibinfo.check
