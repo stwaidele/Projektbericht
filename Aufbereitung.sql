@@ -1,6 +1,6 @@
 /* create database pb;
- use pb;
 */
+use pb;
 
 drop table umfrage;
 create table umfrage (
