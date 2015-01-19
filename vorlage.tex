@@ -37,6 +37,8 @@
 \usepackage[printonlyused]{acronym}
 \usepackage[activate={true,nocompatibility},final,tracking=false,kerning=true,spacing=true,factor=1100,stretch=20,shrink=20]{microtype}
 
+% http://blog.lewumpy.de/2011/01/latex-vorlage-fur-deutsches-literaturverzeichnis-und-zitierstil/
+\usepackage{natbib}
 
 \newif\iflistoffigures
 \newif\iflistoftables
@@ -139,7 +141,8 @@
 %\addcontentsline{toc}{section}{Literatur-- und Quellenverzeichnis}
 \renewcommand{\refname}{Literatur-- und Quellenverzeichnis}
 %\bibliographystyle{alpha}
-\bibliographystyle{apalike}
+% http://blog.lewumpy.de/2011/01/latex-vorlage-fur-deutsches-literaturverzeichnis-und-zitierstil/
+\bibliographystyle{mlu_ifg}
 \bibliography{pb-literatur}
 \onehalfspacing
 \clearpage
