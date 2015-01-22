@@ -22,3 +22,12 @@ select count(*) from umfrage where nutzungble=0.0;
 select count(*) from umfrage where einfachble NOT LIKE "n/a";
 select count(*) from umfrage where einfachble<=2 and einfachble NOT LIKE "n/a";
 select count(*) from umfrage where smartphone="Ja" and einfachble<3 and einfachble NOT LIKE "n/a";
+
+
+
+select count(*) from umfrage where nutzungurl=0.1;
+select count(*) from umfrage where nutzungurl=0.0;
+
+select count(*) from umfrage where einfachurl NOT LIKE "n/a";
+select count(*) from umfrage where einfachurl<=2 and einfachurl NOT LIKE "n/a";
+select count(*) from umfrage where smartphone="Ja" and einfachurl<3 and einfachurl NOT LIKE "n/a";

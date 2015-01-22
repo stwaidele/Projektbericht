@@ -126,19 +126,22 @@ Missbrauch ist wegen der Reichweite von Bluetooth durch von Angreifern platziert
 \label{sub:bewertung_bluetooth_low_energie}
 Für den Einsatz von \ac{BLE} Sendern zur Kontaktaufnahme gilt aufgrund der gemeinsamen Basistechnologie zunächst das für Bluetooth gesagte. Die Sender sind jedoch fertig konfiguriert im Handel erhältlich, was die Notwendigkeit der Kopplung mit dem Empfänger. \ac{BLE} benötigt auf Kundenseite ein Bluetooth 4.0 fähiges Endgerät, welche aber bereits seit 2011 im Handel sind und eine große Menge der aktuellen und vorhergehenden Generation von Smartphones einschließt.\footnote{\cite{gilchrist}, Abschnitt 1.4}
 
-Bei den vom Sender übertragenen Daten handelt es sich lediglich um eine weltweit eindeutige Identifikation, sowie der Entfernung zwischen Sender und Empfänger. Eine Übersetzung in für den Kunden nützliche Daten erfolgt dann in einer betriebsspezifischen Smartphone–App oder auf Apple–Geräten mithilfe der Passbook–App.
-
-Aufgrund dieser technischen Voraussetzungen ist \ac{BLE} nicht für die mehrfache Ausbringung identischer Exemplare, sondern nur für an einen bestimmten Ort gebundene Quellmedien geeignet. Als Zielmedium kommen im Moment nur Passbook oder individuell programmierte Smartphone–Apps in Betracht.
+Bei den vom Sender übertragenen Daten handelt es sich lediglich um eine weltweit eindeutige Identifikation, sowie der Entfernung zwischen Sender und Empfänger. Eine Übersetzung in für den Kunden nützliche Daten erfolgt dann in einer betriebsspezifischen Smartphone–App\footnote{Die Nutzung von betriebsspezifischen Apps wird in dieser Arbeit nicht untersucht.} oder in Form von Passbook Codes.\footnote{Dies stellt einen Spezialfall der Weitergabe von Informationen an Kunden dar.} Die Kosten pro BLE Sender betragen je nach Hersteller zwischen 8€ und 40€. Passbook Codes können zu geringen Kosten bei Internetdiensten erstellt werden.\footnote{z.B. \url{http://www.passcreator.de/preise/}} Aufgrund der technischen Voraussetzungen ist \ac{BLE} nicht für die mehrfache Ausbringung identischer Exemplare, sondern nur für an einen bestimmten Ort gebundene Quellmedien geeignet. 
 
 Von den 174 Teilnehmenden der Umfrage gaben 117 an \ac{BLE} nicht zu kennen und weitere 28, sich nicht für \ac{BLE} zu interessieren. Der Bekanntheitsgrad von \ac{BLE} liegt somit bei 17\%. Von den 15 gegebenen Angaben zur Benutzerfreundlichkeit waren 6 bzw. 40\% im Bereich „Gut“ oder besser.
 
-\todo{Sicherheit}
-
+Missbrauch ist wie auch bei Bluetooth durch vom Angreifer platzierte Sender möglich, aufgrund der Unabhängigkeit von externen Stromquellen sogar noch einfacher. Gleiches gilt für temporäre bzw. mobile Angriffe.
 % subsection bewertung_bluetooth_low_energie (end)
 
 \subsection{Bewertung Kurzlinks} % (fold)
 \label{sub:bewertung_kurzlinks}
+Kurzlinks können für alle Quellmedien und mit für alle Zielmedien eingesetzt werden. Der zur Erstellung von Drucksachen ohnehin notwendige Workflow wird lediglich um die Erstellung des Links erweitert, was in \ac{CMS} ohne großen Aufwand möglich ist. Die Kosten beschränken sich somit lediglich auf ebendiese Erstellung bleiben unabhängig von der Ausbringungsmenge konstant. Es entstehen keine Variablen Kosten. Im Betrieb treten keine laufenden Kosten auf.
 
+Kurzlinks werden vom Kunden in die Adresszeile des Webbrowsers des Smartphone, Tablet–PC oder Notebook eingegeben. Somit sind sie mit allen Geräten mit vorinstallierter Software nutzbar. 
+
+Von den 174 Teilnehmenden der Umfrage gaben 35 an, Kurzlinks nicht zu kennen und weitere 28, sich nicht für Kurzlinks zu interessieren. Der Bekanntheitsgrad von Kurzlinks liegt somit bei über 63\%. Von den 114 gegebenen Angaben zur Benutzerfreundlichkeit waren 98 bzw. 86\% im Bereich „Gut“ oder besser. 
+
+Beim Einsatz von Kurzlinks besteht die Möglichkeit den Missbrauchs durch unbemerktes Überkleben mit \ac{URL}s, die zu falschen Informationen führen. Des weiteren besteht die Möglichkeit, ähnliche Domainnamen, sogenannte „Tippfehler Domains“, zu registriern um die Kunden auf die Webseiten des Angreifers zu lenken.\footnote{vgl. BGH: Urteil vom 22. Januar 2014 - I ZR 164/12 - wetteronline.de}
 % subsection bewertung_kurzlinks (end)
 
 % section bewertung_der_technologien (end)
