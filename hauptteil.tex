@@ -86,7 +86,7 @@ Durch entsprechende Gestaltung der referenzierten Webseite können auch personal
 
 \subsection{Bewertung QR Codes} % (fold)
 \label{sub:bewertung_qr_codes}
-QR Codes können für alle Quellmedien und für alle Zielmedien eingesetzt werden. Der zur Erstellung von Drucksachen ohnehin notwendige Workflow wird lediglich um die Erstellung des Codes erweitert, was mit Hilfe von kostenlosen Webdiensten ohne großen Aufwand möglich ist.\footnote{z.B. \url{http://www.racoindustries.com/barcodegenerator/2d/qr-code.aspx}} Die Kosten für identische QR–Codes beschränken sich somit lediglich auf ebendiese Erstellung bleiben unabhängig von der Ausbringungsmenge konstant. Es entstehen keine Variablen Kosten. Im Betrieb treten keine laufenden Kosten auf.
+QR Codes können für alle Quellmedien und für alle Zielmedien eingesetzt werden. Der zur Erstellung von Drucksachen ohnehin notwendige Workflow wird lediglich um die Erstellung des Codes erweitert, was mit Hilfe von kostenlosen Webdiensten ohne großen Aufwand möglich ist.\footnote{z.B. \url{http://www.racoindustries.com/barcodegenerator/2d/qr-code.aspx}} Die Kosten für identische QR–Codes beschränken sich somit lediglich auf ebendiese Erstellung und bleiben unabhängig von der Ausbringungsmenge konstant. Es entstehen keine Variablen Kosten. Im Betrieb treten keine laufenden Kosten auf.
 
 QR Codes sind mit allen gängigen Smartphones und Tablet–PCs lesbar, allerdings i.d.R. nicht mit vorinstallierter Software. Der Kunde muss somit einmalig vor der ersten Nutzung eine entsprechende Lese–App herunterladen und installieren. Vor jedem Lesen, muss diese aktiviert werden und mit der Kamera der QR Code erfasst werden. Hierbei kann es je nach Größe des gedruckten Codes, der Informationsdichte und den Lichtverhältnissen zu Fokusproblemen kommen, die das Lesen erschweren.   
 
@@ -118,7 +118,7 @@ Alle gängigen Smartphones, Tablet–PCs und viele Notebooks können über Bluet
 
 Von den 174 Teilnehmenden der Umfrage gaben 7 an Bluetooth nicht zu kennen und weitere 22, sich nicht für Bluetooth zu interessieren. Der Bekanntheitsgrad von Bluetooth liegt somit bei über 83\%. Von den 151 gegebenen Angaben zur Benutzerfreundlichkeit waren 120 bzw. 79\% im Bereich „Gut“ oder besser.
 
-Missbrauch ist wegen der Reichweite von Bluetooth durch von Angreifern platzierten Sendern auch aus einigen Metern Entfernung möglich, aufgrund der benötigen Stromversorgung jedoch aufwändig. Mögliche temporäre und mobile Angriffe mit Smartphones, die sich als Betriebseigene Sender ausgeben sind möglich und nur schwer zu bemerken. Hierdurch können Angreifer die Kunden mit falschen Informationen versorgen, oder unter Vorspiegelung falscher Identität Daten vom Kunden erfassen.
+Missbrauch ist wegen der Reichweite von Bluetooth durch von Angreifern platzierten Sendern auch aus einigen Metern Entfernung möglich, aufgrund der benötigen Stromversorgung jedoch aufwändig. Mögliche temporäre und mobile Angriffe mit Smartphones, die sich als betriebseigene Sender ausgeben sind möglich und nur schwer zu bemerken. Hierdurch können Angreifer die Kunden mit falschen Informationen versorgen, oder unter Vorspiegelung falscher Identität Daten vom Kunden erfassen.
 
 % subsection bewertung_bluetooth (end)
 
@@ -144,6 +144,42 @@ Von den 174 Teilnehmenden der Umfrage gaben 35 an, Kurzlinks nicht zu kennen und
 Beim Einsatz von Kurzlinks besteht die Möglichkeit den Missbrauchs durch unbemerktes Überkleben mit \ac{URL}s, die zu falschen Informationen führen. Des weiteren besteht die Möglichkeit, ähnliche Domainnamen, sogenannte „Tippfehler Domains“, zu registriern um die Kunden auf die Webseiten des Angreifers zu lenken.\footnote{vgl. BGH: Urteil vom 22. Januar 2014 - I ZR 164/12 - wetteronline.de}
 % subsection bewertung_kurzlinks (end)
 
+\subsection{Zusammenfassung der Bewertungen} % (fold)
+\label{sub:zusammenfassung_der_bewertungen}
+
+Die in den vorangegangenen Abschnitten beschriebenen Eigenschaften sind hier nochmals als Tabelle zusammengefasst:
+
+\begin{table}[H]
+\begin{center}
+\begin{footnotesize}
+\begin{tabular}{| l | C{1cm} | C{1cm} | C{1cm} | C{1cm} | C{1cm} |}  \hline                       
+  \textbf{Kriterium} & 
+	\begin{turn}{90}\textbf{QR–Codes\hspace{0.1cm}}\end{turn} & 
+	\begin{turn}{90}\textbf{NFC}\end{turn}  & 
+	\begin{turn}{90}\textbf{Bluetooth}\end{turn} & 
+	\begin{turn}{90}\textbf{BLE}\end{turn} & 
+	\begin{turn}{90}\textbf{URLs}\end{turn}\\ \hline 
+	Quellmedien					& alle   & viele   & wenige & einige   & alle \\  \hline  
+	Zielmedien  				& alle   & alle    & wenige & wenige   & alle \\  \hline  
+	Fixe Kosten 				& gering & gering  & hoch   & gering   & gering \\  \hline  
+	Variable Stückkosten		& 0,00€  & 0,35€ & 40€  & 20€ & 0,00€ \\  \hline  
+	Voraussetzungen beim Kunden & App    & OS      & keine  & keine    & keine \\  \hline  
+	Bekanntheit / Verbreitung	& 60\%   & 37\%    & 83\%   & 17\%     & 63\% \\  \hline  
+	Benutzerfreundlichkeit 		& 78\%   & 62\%    & 79\%   & 40\%     & 86\% \\  \hline  
+	Technische Möglichkeiten   & mittel & hoch    & sehr hoch & sehr hoch & gering \\ \hline
+	Missbrauchsgefahr 			& mittel & gering  & hoch   & mittel   & mittel \\  \hline  
+			   
+\end{tabular}
+\end{footnotesize}
+\caption{Tabelarische Zusammenfassung der Bewertungen}
+\label{tab:zusammenfassung}
+\end{center}
+\end{table}
+
+Hierbei sind Kosten aufgrund der im Text beschriebenen Bezugsquellen angegeben. Die Werte für Bekanntheit und Benutzerfreundlichkeit sind die anhand der Befragung gewonnenen Werte. Alle weiteren Angaben verstehen sich relativ zu den anderen besprochenen Technologien.
+
+% subsection zusammenfassung_der_bewertungen (end)
+
 % section bewertung_der_technologien (end)
 
 \newpage
@@ -153,11 +189,13 @@ Beim Einsatz von Kurzlinks besteht die Möglichkeit den Missbrauchs durch unbeme
 \subsection{Technologische Handlungsempfehlungen} % (fold)
 \label{sub:technologische_handlungsempfehlungen}
 
+
+
 % subsection technologische_handlungsempfehlungen (end)
 
 \subsection{Psychologische Handlungsempfehlungen} % (fold)
 \label{sub:psychologische_handlungsempfehlungen}
-Beim Einsatz von digitaler Komunikation und automatischen Bereitstellung von digitalen Informationen für den Kunden entsteht ein Interessenskonflikt: Einerseits soll das digitale Angebot attraktiv sein, um einen Nuzungsanreiz zu schaffen. Andererseits muss auch sichergestellt werden, dass allen Kunden ohne Nutzung weiterer Hilfsmittel trotzdem alle wichtigen und notwendigen Informationen zugänglich sind.\\
+Beim Einsatz von digitaler Kommunikation und automatischen Bereitstellung von digitalen Informationen für den Kunden entsteht ein Interessenskonflikt: Einerseits soll das digitale Angebot attraktiv sein, um einen Nuzungsanreiz zu schaffen. Andererseits muss auch sichergestellt werden, dass allen Kunden ohne Nutzung weiterer Hilfsmittel trotzdem alle wichtigen und notwendigen Informationen zugänglich sind.
 Hierbei ist es wichtig, dass dies nicht nur nach objektiven Maßstäben geschieht, sondern dass die Gefahr, dass sich Gäste benachteiligt fühlen minimiert wird. Dies könnte dadurch erreicht werden, dass zusätzlich zu den direkt zugänglichen Grundinformationen auf ein erweitertes Angebot hingewiesen wird, dass digital oder auch persönlich beim Personal erhältlich ist.
 
 Des weiteren ist Abzuwägen, ob es in jeder möglichen Ausgangssituation wünschenswert ist, die Aufmerksamkeit des Gastes auf ein digitales Angebot zu lenken. So kann die Smartphonenutzung kurz vor der Bestellung den Geschäftsprozess deutlich verlangsamen, oder das gewünschte Ambiente stören. 
