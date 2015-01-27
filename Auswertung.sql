@@ -117,6 +117,7 @@ select count(*) from umfrage where geschlecht = "w" ;
 select count(*) from umfrage where smartphone = "Ja" ;
 select count(*) from umfrage where smartphone = "Nein" ;
 
+select os, count(os) from umfrage group by os;
 select count(os) from umfrage where os = "Android" ;
 select count(os) from umfrage where os = "iOS" ;
 select count(os) from umfrage where os = "Win" ;
@@ -160,3 +161,4 @@ select einfachurl, count(einfachurl), count(einfachurl)/174*100 from umfrage gro
 select einfachfb, count(einfachfb), count(einfachfb)/174*100 from umfrage group by einfachfb;
 select einfachwhat, count(einfachwhat), count(einfachwhat)/174*100 from umfrage group by einfachwhat;
 select einfachapp, count(einfachapp), count(einfachapp)/174*100 from umfrage group by einfachapp;
+

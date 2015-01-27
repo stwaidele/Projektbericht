@@ -35,6 +35,7 @@ In Beherbergungsbetrieben hält sich der Gast während des Aufenthalts zwischen 
 % section einsatzorte (end)
 
 \newpage
+\addtocontents{toc}{\protect\newpage}
 \section{Einsatzzwecke} % (fold)
 \label{sec:einsatzzwecke}
 
@@ -90,11 +91,11 @@ QR Codes können für alle Quellmedien und für alle Zielmedien eingesetzt werde
 
 QR Codes sind mit allen gängigen Smartphones und Tablet–PCs lesbar, allerdings i.d.R. nicht mit vorinstallierter Software. Der Kunde muss somit einmalig vor der ersten Nutzung eine entsprechende Lese–App herunterladen und installieren. Vor jedem Lesen, muss diese aktiviert werden und mit der Kamera der QR Code erfasst werden. Hierbei kann es je nach Größe des gedruckten Codes, der Informationsdichte und den Lichtverhältnissen zu Fokusproblemen kommen, die das Lesen erschweren.   
 
-Die maximale Speicherkapazität ist somit nur theoretisch erreichbar. Je größer die zu speichernde Datenmenge, desto feiner werden bei gleich bleibender Abbildungsgröße die zu scannenden Strukturen. Die Abbildungsgröße ist jedoch aufgrund der Nutzung der Smartphone–Kamera limitiert.\footnote{Auch bei extrem groß dargestellten QR–Codes muss dieser durch Anpassung des Abstandes dieser so verkleinert werden, dass er ganz von der Kamera erfasst wird.} So war keines der getesteten Smartphones\footnote{Apple iPhone 5 sowie Samsung Galaxy S5 mini} in der Lage, einen V40 QR–Code zu erkennen. Auch bei kleineren Datenmengen treten bereits deutliche Unterschiede in der Erkennungsleistung sowohl zwischen den Geräten als auch zwischen den verwendeten Apps auf. Für die Übertragung einer \ac{URL}, Kontaktinformationen oder kurze erklärende Texte ist jedoch zuverlässig möglich.
+Die maximale Speicherkapazität ist somit nur theoretisch erreichbar. Je größer die zu speichernde Datenmenge, desto feiner werden bei gleich bleibender Abbildungsgröße die zu scannenden Strukturen. Die Abbildungsgröße ist jedoch aufgrund der Nutzung der Smartphone–Kamera limitiert.\footnote{Auch bei extrem groß dargestellten QR–Codes muss dieser durch Anpassung des Abstandes so verkleinert werden, dass er ganz von der Kamera erfasst wird.} So war keines der getesteten Smartphones\footnote{Apple iPhone 5 sowie Samsung Galaxy S5 mini} in der Lage, einen V40 QR–Code zu erkennen. Auch bei kleineren Datenmengen treten bereits deutliche Unterschiede in der Erkennungsleistung sowohl zwischen den Geräten als auch zwischen den verwendeten Apps auf. Für die Übertragung einer \ac{URL}, Kontaktinformationen oder kurze erklärende Texte ist jedoch zuverlässig möglich.
 
 Von den 174 Teilnehmenden der Umfrage gaben lediglich 26 an, QR Codes nicht zu kennen und weitere 28, sich nicht für QR Codes zu interessieren. Der Bekanntheitsgrad von QR Codes liegt somit bei knapp 60\% (120 Personen). Von den 119 gegebenen Angaben zur Benutzerfreundlichkeit waren 93 bzw. 78\% im Bereich „Gut“ oder besser.
 
-Von den 112 Teilnehmenden, die QR Codes nutzen, nutzen 30 (27\%) NFC Tags, 99 (88\%) Bluetooth, 12 (11\%) \ac{BLE} und 80 (71\%) Kurzlinks. Von diesen Personen bewerteten die  Benutzerfreundlichkeit von NFC Tags 22 (20\%), von Bluetooth 72 (64\%), von \ac{BLE} 4 (4\%), und von Kurzlinks 65 (58\%) im Vergleich zu QR Codes als „gleich oder besser“.
+Von den 112 Teilnehmenden, die QR Codes nutzen, nutzen 30 (27\%) NFC Tags, 99 (88\%) Bluetooth, 12 (11\%) \ac{BLE} und 80 (71\%) Kurzlinks. Von diesen Personen bewerteten die  Benutzerfreundlichkeit von NFC Tags 22 (20\%), von Bluetooth 72 (64\%), von \ac{BLE} 4 (4\%), und von Kurzlinks 65 (58\%) im Vergleich zu QR Codes als gleich oder besser.
 
 Beim Einsatz von QR Codes besteht die Möglichkeit Spoofings durch unbemerktes Überkleben mit Codes, die falsche Informationen beinhalten oder dazu führen. Diese Vorgehensweise ist besonders bei einzeln platzierten QR Codes möglich. 
 % subsection bewertung_qr_codes (end)
@@ -103,12 +104,12 @@ Beim Einsatz von QR Codes besteht die Möglichkeit Spoofings durch unbemerktes �
 \label{sub:bewertung_nfc_tags}
 NFC Tags können mit Einschränkungen für alle Quellmedien und für alle Zielmedien eingesetzt werden. Der mit einem NFC-fähigen Smartphone oder Tablet–PC beschriebene NFC Tag ist das Kontaktmedium oder wird hinter dem Medium angebracht. Durch den Preis von einigen Cent pro NFC–Aufkleber\footnote{Januar 2015: 0,35€ pro Aufkleber bei NFC-Tag-Shop.de} sowie der Notwendigkeit jeden NFC Tag einzelnen zu beschreiben entstehen bei der Ausbringung identischer Kopien auf Massenartikeln jedoch variable Kosten. Hierdurch werden die möglichen Quellmedien durch die Wirtschaftlichkeit begrenzt. Im Betrieb treten keine laufenden Kosten auf.
 
-Es ist nicht möglich, NFC Tags mit Apple Smartphones oder Tablet–PCs zu lesen. In der aktuellen Modellgeneration ist zwar ein NFC Lesechip eingebaut. Dieser ist jedoch nicht allgemein einsetzbar, sondern der Apple–eigenen Bezahlsoftware vorbehalten.\footnote{vgl. cite{zdnet:applenfc}}
+Es ist nicht möglich, NFC Tags mit Apple Smartphones oder Tablet–PCs zu lesen. In der aktuellen Modellgeneration ist zwar ein NFC Lesechip eingebaut, dieser ist jedoch nicht allgemein einsetzbar, sondern der Apple–eigenen Bezahlsoftware vorbehalten.\footnote{vgl. \cite{zdnet:applenfc}}
 Somit sind mindestens 12,7\% der neu verkauften Smartphones nicht in der Lage, Informationen aus NFC Tags auszulesen.\footnote{\cite{garnter:os}, Tabelle 2}
 
 Von den 174 Teilnehmenden der Umfrage gaben 72 an, NFC Tags nicht zu kennen und weitere 38, sich nicht für NFC Tags zu interessieren. Der Bekanntheitsgrad von NFC Tags liegt somit bei knapp 37\% (64 Personen). Von den 45 gegebenen Angaben zur Benutzerfreundlichkeit waren 28 bzw. 62\% im Bereich „Gut“ oder besser. 
 
-Von den 32 Teilnehmenden, die NFC Tags nutzen, nutzen 30 (94\%) QR Codes, 30 (94\%) Bluetooth, 8 (25\%) \ac{BLE} und 26 (81\%) Kurzlinks. Von diesen Personen bewerteten die  Benutzerfreundlichkeit von QR Codes 19 (59\%), von Bluetooth 23 (72\%), von \ac{BLE} 3 (9\%), und von Kurzlinks 19 (59\%) im Vergleich zu NFC Tags als „gleich oder besser“.
+Von den 32 Teilnehmenden, die NFC Tags nutzen, nutzen 30 (94\%) QR Codes, 30 (94\%) Bluetooth, 8 (25\%) \ac{BLE} und 26 (81\%) Kurzlinks. Von diesen Personen bewerteten die  Benutzerfreundlichkeit von QR Codes 19 (59\%), von Bluetooth 23 (72\%), von \ac{BLE} 3 (9\%), und von Kurzlinks 19 (59\%) im Vergleich zu NFC Tags als gleich oder besser.
 
 Um Missbrauch zu verhindern, können NFC Tags beim Beschreiben mit einem Schreibschutz versehen werden. Dieser schließt dann aber auch spätere gewollte Änderungen an den gespeicherten Daten aus, so dass zur Aktualisierung ein neuer NFC Tag verwendet werden muss. Spoofing ist somit lediglich durch das Anbringen von weiteren NFC Tags möglich.
 % subsection bewertung_nfc_tags (end)
@@ -117,11 +118,11 @@ Um Missbrauch zu verhindern, können NFC Tags beim Beschreiben mit einem Schreib
 \label{sub:bewertung_bluetooth}
 Um Bluetooth als Kontaktmedium zu nutzen, wird eine Sendestation benötigt, die mit dem Gerät des Kunden\footnote{Neben einem Smartphone kommen hier auch Tablet–PCs oder Notebooks mit Bluetooth–Schnittstelle in Frage} Kontakt aufnimmt und die gewünschten Daten überträgt. Die Hardwareanforderungen hierzu sind niedrig, so dass ein entsprechend programmiertes Smartphone oder ein Einplatinencomputer\footnote{z.B. Raspberry Pi oder Arduino} ausreicht. Die Sendestation kann aufgrund der Reichweite auch in einigen Metern Entfernung zur Position des Kunden platziert werden. Aufgrund dieser notwendigen Infrastruktur ist Bluetooth nicht für die Ausbringung auf Massenartikeln geeignet. Die einmaligen Kosten belaufen sich auf den Programmieraufwand für die gewünschte Funktionalität. Pro Sendestation entstehen zusätzlich variable Kosten, die von der eingesetzten Hardware abhängig sind.\footnote{z.Zt. kostet ein Raspberry Pi ca. 40€ bei \url{Amazon.de}} Während des Betriebs fallen Stromkosten an.
 
-Alle gängigen Smartphones, Tablet–PCs und viele Notebooks können über Bluetooth mit der Sendestation Daten austauschen. Hierzu ist allerdings ein Kopplungsvorgang notwendig, der einige Sekunden dauert und die aktive Mitwirkung des Kundens erfordert\footnote{Bluetooth ggf. aktivieren, Umgebung nach Geräten durchsuchen, Verbindung bestätigen.} Anschließend ist jedoch die Übertragung von Daten entsprechend der von beiden Geräten unterstützten Protokolle möglich. Die Schnittmenge der von Sender und Empfänger unterstützen Übertragungsprotokolle beschränkt die möglichen Kontaktmöglichkeiten. So unterstützen Apple–Geräte weder die Übertragung von Texten und Bildern noch von Kontaktinformationen. Bei anderen Herstellern kann die entsprechende Unterstützung dieser Funktionalität von Gerät und Betriebssystemversion abhängig sein.
+Alle gängigen Smartphones, Tablet–PCs und viele Notebooks können über Bluetooth mit der Sendestation Daten austauschen. Hierzu ist allerdings ein Kopplungsvorgang notwendig, der einige Sekunden dauert und die aktive Mitwirkung des Kundens erfordert\footnote{Bluetooth ggf. aktivieren, Umgebung nach Geräten durchsuchen, Verbindung bestätigen.} Anschließend ist die Übertragung von Daten entsprechend der von beiden Geräten unterstützten Protokolle möglich. Die Schnittmenge der von Sender und Empfänger unterstützen Übertragungsprotokolle beschränkt die möglichen Kontaktmöglichkeiten. So unterstützen Apple–Geräte weder die Übertragung von Texten und Bildern noch von Kontaktinformationen. Bei anderen Herstellern kann die entsprechende Unterstützung dieser Funktionalität von Gerät und Betriebssystemversion abhängig sein.
 
 Von den 174 Teilnehmenden der Umfrage gaben 7 an Bluetooth nicht zu kennen und weitere 22, sich nicht für Bluetooth zu interessieren. Der Bekanntheitsgrad von Bluetooth liegt somit bei über 83\%. Von den 151 gegebenen Angaben zur Benutzerfreundlichkeit waren 120 bzw. 79\% im Bereich „Gut“ oder besser.
 
-Von den 140 Teilnehmenden, die Bluetooth nutzen, nutzen 99 (71\%) QR Codes, 30 (21\%) NFC Tags, 13 (9\%) \ac{BLE} und 95 (68\%) Kurzlinks. Von diesen Personen bewerteten die  Benutzerfreundlichkeit von QR Codes 64 (46\%), von NFC Tags 22 (16\%), von \ac{BLE} 2 (1\%), und von Kurzlinks 73 (52\%) im Vergleich zu Bluetooth als „gleich oder besser“.
+Von den 140 Teilnehmenden, die Bluetooth nutzen, nutzen 99 (71\%) QR Codes, 30 (21\%) NFC Tags, 13 (9\%) \ac{BLE} und 95 (68\%) Kurzlinks. Von diesen Personen bewerteten die  Benutzerfreundlichkeit von QR Codes 64 (46\%), von NFC Tags 22 (16\%), von \ac{BLE} 2 (1\%), und von Kurzlinks 73 (52\%) im Vergleich zu Bluetooth als gleich oder besser.
 
 Missbrauch ist wegen der Reichweite von Bluetooth durch von Angreifern platzierten Sendern auch aus einigen Metern Entfernung möglich, aufgrund der benötigen Stromversorgung jedoch aufwändig. Mögliche temporäre und mobile Spoofing–Angriffe mit Smartphones, die sich als betriebseigene Sender ausgeben sind möglich und nur schwer zu bemerken. 
 
@@ -129,13 +130,13 @@ Missbrauch ist wegen der Reichweite von Bluetooth durch von Angreifern platziert
 
 \subsection{Bewertung Bluetooth Low Energie} % (fold)
 \label{sub:bewertung_bluetooth_low_energie}
-Für den Einsatz von \ac{BLE} Sendern zur Kontaktaufnahme gilt aufgrund der gemeinsamen Basistechnologie zunächst das für Bluetooth gesagte. Die Sender sind jedoch fertig konfiguriert im Handel erhältlich, was die Notwendigkeit der Kopplung mit dem Empfänger. \ac{BLE} benötigt auf Kundenseite ein Bluetooth 4.0 fähiges Endgerät, welche aber bereits seit 2011 im Handel sind und eine große Menge der aktuellen und vorhergehenden Generation von Smartphones einschließt.\footnote{\cite{gilchrist}, Abschnitt 1.4}
+Für den Einsatz von \ac{BLE} Sendern zur Kontaktaufnahme gilt aufgrund der gemeinsamen Basistechnologie zunächst das für Bluetooth gesagte. Die Sender sind jedoch fertig konfiguriert im Handel erhältlich, was den Einrichtungsaufwand reduziert. Außerdem entfällt die Notwendigkeit der Kopplung mit dem Empfänger. \ac{BLE} benötigt auf Kundenseite Bluetooth 4.0 fähige Endgeräte, welche aber bereits seit 2011 im Handel sind und eine große Menge der aktuellen und vorhergehenden Generation von Smartphones einschließt.\footnote{\cite{gilchrist}, Abschnitt 1.4}
 
 Bei den vom Sender übertragenen Daten handelt es sich lediglich um eine weltweit eindeutige Identifikation, sowie der Entfernung zwischen Sender und Empfänger. Eine Übersetzung in für den Kunden nützliche Daten erfolgt dann in einer betriebsspezifischen Smartphone–App\footnote{Die Nutzung von betriebsspezifischen Apps wird in dieser Arbeit nicht untersucht.} oder in Form von Passbook Codes.\footnote{Dies stellt einen Spezialfall der Weitergabe von Informationen an Kunden dar.} Die Kosten pro BLE Sender betragen je nach Hersteller zwischen 8€ und 40€. Passbook Codes können zu geringen Kosten bei Internetdiensten erstellt werden.\footnote{z.B. \url{http://www.passcreator.de/preise/}} Aufgrund der technischen Voraussetzungen ist \ac{BLE} nicht für die mehrfache Ausbringung identischer Exemplare, sondern nur für an einen bestimmten Ort gebundene Quellmedien geeignet. 
 
 Von den 174 Teilnehmenden der Umfrage gaben 117 an \ac{BLE} nicht zu kennen und weitere 28, sich nicht für \ac{BLE} zu interessieren. Der Bekanntheitsgrad von \ac{BLE} liegt somit bei 17\%. Von den 15 gegebenen Angaben zur Benutzerfreundlichkeit waren 6 bzw. 40\% im Bereich „Gut“ oder besser.
 
-Von den 13 Teilnehmenden, die \ac{BLE} nutzen, nutzen 12 (92\%) QR Codes, 8 (62\%) NFC Tags, 13 (100\%) Bluetooth und 12 (92\%) Kurzlinks. Von diesen Personen bewerteten die  Benutzerfreundlichkeit von QR Codes 7 (54\%), von NFC Tags 6 (46\%), von Bluetooth 8 (62\%), und von Kurzlinks 8 (62\%) im Vergleich zu \ac{BLE} als „gleich oder besser“.
+Von den 13 Teilnehmenden, die \ac{BLE} nutzen, nutzen 12 (92\%) QR Codes, 8 (62\%) NFC Tags, 13 (100\%) Bluetooth und 12 (92\%) Kurzlinks. Von diesen Personen bewerteten die  Benutzerfreundlichkeit von QR Codes 7 (54\%), von NFC Tags 6 (46\%), von Bluetooth 8 (62\%), und von Kurzlinks 8 (62\%) im Vergleich zu \ac{BLE} als gleich oder besser.
 
 Missbrauch ist wie auch bei Bluetooth durch vom Angreifer platzierte Sender möglich, aufgrund der Unabhängigkeit von externen Stromquellen sogar noch einfacher. Gleiches gilt für temporäre bzw. mobile Angriffe. Neben dem Spoofing ist jedoch auch das Hacking bei BLE Sendern möglich.\footnote{vgl. \cite{gilchrist}, Abschnitt 9.2} 
 % subsection bewertung_bluetooth_low_energie (end)
@@ -148,7 +149,7 @@ Kurzlinks werden vom Kunden in die Adresszeile des Webbrowsers des Smartphone, T
 
 Von den 174 Teilnehmenden der Umfrage gaben 35 an, Kurzlinks nicht zu kennen und weitere 28, sich nicht für Kurzlinks zu interessieren. Der Bekanntheitsgrad von Kurzlinks liegt somit bei über 63\%. Von den 114 gegebenen Angaben zur Benutzerfreundlichkeit waren 98 bzw. 86\% im Bereich „Gut“ oder besser. 
 
-Von den 104 Teilnehmenden, die Kurzlinks nutzen, nutzen 80 (77\%) QR Codes, 26 (25\%) NFC Tags, 95 (91\%) Bluetooth und 12 (12\%) \ac{BLE}. Von diesen Personen bewerteten die  Benutzerfreundlichkeit von QR Codes 44 (42\%), von NFC Tags 15 (14\%), von Bluetooth 69 (66\%), und von \ac{BLE} 98 (94\%) im Vergleich zu Kurzlinks als „gleich oder besser“.
+Von den 104 Teilnehmenden, die Kurzlinks nutzen, nutzen 80 (77\%) QR Codes, 26 (25\%) NFC Tags, 95 (91\%) Bluetooth und 12 (12\%) \ac{BLE}. Von diesen Personen bewerteten die  Benutzerfreundlichkeit von QR Codes 44 (42\%), von NFC Tags 15 (14\%), von Bluetooth 69 (66\%), und von \ac{BLE} 98 (94\%) im Vergleich zu Kurzlinks als gleich oder besser.
 
 Beim Einsatz von Kurzlinks besteht die Möglichkeit des Spoofings durch unbemerktes Überkleben mit \ac{URL}s, die zu falschen Informationen führen. Des weiteren besteht die Möglichkeit, ähnliche Domainnamen, sogenannte „Tippfehler Domains“, zu registriern um die Kunden auf die Webseiten des Angreifers zu lenken.\footnote{vgl. BGH: Urteil vom 22. Januar 2014 - I ZR 164/12 - wetteronline.de}
 % subsection bewertung_kurzlinks (end)
@@ -170,6 +171,7 @@ Die in den vorangegangenen Abschnitten beschriebenen Eigenschaften sind hier noc
 	\begin{turn}{90}\textbf{URLs}\end{turn}\\ \hline 
 	Quellmedien					& alle   & viele   & wenige & einige   & alle \\  \hline  
 	Zielmedien  				& alle   & alle    & wenige & wenige   & alle \\  \hline  
+	Offline–Informationen 		& ja     & ja      & nein   & nein     & nein \\  \hline  
 	Fixe Kosten 				& gering & gering  & hoch   & gering   & gering \\  \hline  
 	Variable Stückkosten		& 0,00€  & 0,35€ & 40€  & 20€ & 0,00€ \\  \hline  
 	Voraussetzungen beim Kunden & App    & OS      & keine  & keine    & keine \\  \hline  
@@ -197,15 +199,15 @@ Hierbei sind Kosten aufgrund der im Text beschriebenen Bezugsquellen angegeben. 
 
 \subsection{Technologische Handlungsempfehlungen} % (fold)
 \label{sub:technologische_handlungsempfehlungen}
-Aufgrund der großen Auswahl an Quell– und Zielmedien sowie die geringen Kosten bieten sich Kurzlinks, QR Codes und NFC Tags als Möglichkeiten der digitalen Kontaktaufnahme im Endkundenbereich kleiner Betriebe des Gastgewerbes an. 
+Aufgrund der großen Auswahl an Quell– und Zielmedien sowie den geringen Kosten bieten sich Kurzlinks, QR Codes und NFC Tags als Möglichkeiten der digitalen Kontaktaufnahme im Endkundenbereich kleiner Betriebe des Gastgewerbes an. 
 
 In der Umfrage erzielten hierbei die Kurzlinks sowohl bei der Bekanntheit als auch bei Benutzerfreundlichkeit die höchsten Werte bei gleichzeitig geringsten technischen Voraussetzungen beim Kunden.\footnote{Der Markenname „Bluetooth“ ist zwar noch bekannter, die Technologie eignet sich jedoch aufgrund ihrer weiteren Eigenschaften nicht für das untersuchte Einsatzgebiet.} Daher ist die Angabe von menschenlesbaren \ac{URL}s für die Kontaktaufnahme zu empfehlen. Ebenfalls sollte beim Einsatz von QR Codes oder NFC Tags stets zusätzlich eine für lesbare \ac{URL} angegeben werden.
 
 Der hohe Bekanntheitsgrad und den guten Befragungsergebnissen bezüglich der Benutzerfreundlichkeit sprechen für die Nutzung von QR Codes als zusätzliches Angebot für Kunden, speziell wenn es darum geht, Informationen ohne nutzbare Internetverbindung weiterzugeben.\footnote{z.B. Kontaktinformationen per vCard.} Da die Nutzer der weniger verbreiteten Technologien wie NFC oder BLE zu einem hohen Prozentsatz auch QR Codes nutzen, ist ein weiterer Grund, diese zu nutzen.
 
-NFC Tags eignen sich aufgrund der geringen Verbreitung nur eingeschränkt für den Einsatz in kleinen Betrieben des Gastgewerbes. Mit steigendem Anteil von NFC–fähigen Smartphones bzw. falls Apple die willkürliche Beschränkung der Nutzung von NFC aufhebt sowie durch eine Etablierung von NFC–fähigen Kreditkarten könnten NFC Tags in Bekanntheit und Verbreitung deutlich zulegen. 
+NFC Tags eignen sich aufgrund der geringen Verbreitung nur eingeschränkt für den Einsatz in kleinen Betrieben des Gastgewerbes. Mit steigendem Anteil von NFC–fähigen Smartphones bzw. falls Apple die willkürliche Beschränkung der Nutzung von NFC aufhebt sowie durch eine Etablierung von NFC–fähigen Kreditkarten könnten NFC Tags in Bekanntheit und Verbreitung deutlich zulegen. Diese Entwicklung sollte von den Betrieben beobachtet werden.
 
-BLE Sender eignen sich im Moment sowohl wegen der geringen Verbreitung und Bekanntheit als auch wegen der eingeschränkten Möglichkeiten nicht für den Einsatz in kleinen Betrieben. Da durch BLE zusammen mit Hoteleigenen Apps jedoch neue Anwendungsfälle möglich werden, sollte auch die weitere Entwicklung dieser Technologie beobachtet werden.
+BLE Sender eignen sich im Moment sowohl wegen der geringen Verbreitung und Bekanntheit als auch wegen der eingeschränkten Möglichkeiten nicht für den Einsatz in kleinen Betrieben. Da durch BLE zusammen mit hoteleigenen Apps jedoch neue Anwendungsfälle möglich werden, sollte auch die weitere Entwicklung dieser Technologie beobachtet werden.
 
 
 % subsection technologische_handlungsempfehlungen (end)
@@ -215,7 +217,7 @@ BLE Sender eignen sich im Moment sowohl wegen der geringen Verbreitung und Bekan
 Beim Einsatz von digitaler Kommunikation und automatischen Bereitstellung von digitalen Informationen für den Kunden entsteht ein Interessenskonflikt: Einerseits soll das digitale Angebot attraktiv sein, um einen Nuzungsanreiz zu schaffen. Andererseits muss auch sichergestellt werden, dass allen Kunden ohne Nutzung weiterer Hilfsmittel trotzdem alle wichtigen und notwendigen Informationen zugänglich sind.
 Hierbei ist es wichtig, dass dies nicht nur nach objektiven Maßstäben geschieht, sondern dass die Gefahr, dass sich Gäste benachteiligt fühlen minimiert wird. Dies könnte dadurch erreicht werden, dass zusätzlich zu den direkt zugänglichen Grundinformationen auf ein erweitertes Angebot hingewiesen wird, dass digital oder auch persönlich beim Personal erhältlich ist.
 
-Des weiteren ist Abzuwägen, ob es in jeder möglichen Ausgangssituation wünschenswert ist, die Aufmerksamkeit des Gastes auf ein digitales Angebot zu lenken. So kann die Smartphonenutzung kurz vor der Bestellung den Geschäftsprozess deutlich verlangsamen, oder das gewünschte Ambiente stören. 
+Des weiteren ist abzuwägen, ob es in jeder möglichen Ausgangssituation wünschenswert ist, die Aufmerksamkeit des Gastes auf ein digitales Angebot zu lenken. So kann die Smartphonenutzung kurz vor der Bestellung den Geschäftsprozess deutlich verlangsamen, oder das gewünschte Ambiente stören. 
 
 % subsection psychologische_handlungsempfehlungen (end)
 
