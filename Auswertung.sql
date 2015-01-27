@@ -127,3 +127,36 @@ select age, count(age), count(age)/174*100 from umfrage group by age ;
 select smartphone, count(smartphone), count(smartphone)/174*100 from umfrage group by smartphone ;
 select count(os) from umfrage where  os="Android" or os="iOS" or os="Win";
 select os, count(os), count(os)/166*100 from umfrage group by os ;
+
+select kettenhotel, count(kettenhotel), count(kettenhotel)/174*100 from umfrage group by kettenhotel;
+select indivhotel, count(indivhotel), count(indivhotel)/174*100 from umfrage group by indivhotel;
+select kettenrestaurant, count(kettenrestaurant), count(kettenrestaurant)/174*100 from umfrage group by kettenrestaurant;
+select indivrestaurant, count(indivrestaurant), count(indivrestaurant)/174*100 from umfrage group by indivrestaurant;
+select kettencafe, count(kettencafe), count(kettencafe)/174*100 from umfrage group by kettencafe;
+select indivcafe, count(indivcafe), count(indivcafe)/174*100 from umfrage group by indivcafe;
+
+select count(nutzungqr), count(nutzungqr)/174*100 from umfrage where nutzungqr<1;
+select nutzungqr, count(nutzungqr), count(nutzungqr)/174*100 from umfrage group by nutzungqr;
+select count(nutzungnfc), count(nutzungnfc)/174*100 from umfrage where nutzungnfc<1;
+select nutzungnfc, count(nutzungnfc), count(nutzungnfc)/174*100 from umfrage group by nutzungnfc;
+select count(nutzungbt), count(nutzungbt)/174*100 from umfrage where nutzungbt<1;
+select nutzungbt, count(nutzungbt), count(nutzungbt)/174*100 from umfrage group by nutzungbt;
+select count(nutzungurl), count(nutzungurl)/174*100 from umfrage where nutzungurl<1;
+select nutzungurl, count(nutzungurl), count(nutzungurl)/174*100 from umfrage group by nutzungurl;
+select count(nutzungble), count(nutzungble)/174*100 from umfrage where nutzungble<1;
+select nutzungble, count(nutzungble), count(nutzungble)/174*100 from umfrage group by nutzungble;
+select count(nutzungfb), count(nutzungfb)/174*100 from umfrage where nutzungfb<1;
+select nutzungfb, count(nutzungfb), count(nutzungfb)/174*100 from umfrage group by nutzungfb;
+select count(nutzungwhat ), count(nutzungwhat)/174*100 from umfrage where nutzungwhat<1;
+select nutzungwhat, count(nutzungwhat), count(nutzungwhat)/174*100 from umfrage group by nutzungwhat;
+select count(nutzungapp ), count(nutzungapp)/174*100 from umfrage where nutzungapp<1;
+select nutzungapp, count(nutzungapp), count(nutzungapp)/174*100 from umfrage group by nutzungapp;
+
+select einfachqr, count(einfachqr), count(einfachqr)/174*100 from umfrage group by einfachqr;
+select einfachnfc, count(einfachnfc), count(einfachnfc)/174*100 from umfrage group by einfachnfc;
+select einfachbt, count(einfachbt), count(einfachbt)/174*100 from umfrage group by einfachbt;
+select einfachble, count(einfachble), count(einfachble)/174*100 from umfrage group by einfachble;
+select einfachurl, count(einfachurl), count(einfachurl)/174*100 from umfrage group by einfachurl;
+select einfachfb, count(einfachfb), count(einfachfb)/174*100 from umfrage group by einfachfb;
+select einfachwhat, count(einfachwhat), count(einfachwhat)/174*100 from umfrage group by einfachwhat;
+select einfachapp, count(einfachapp), count(einfachapp)/174*100 from umfrage group by einfachapp;
