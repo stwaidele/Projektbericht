@@ -13,8 +13,8 @@
 % Eidesstattliche Erklaerung (unterschrieben und fest eingebunden)
 % Bearbeitungsdauer: 2 Monate
 
-
 \documentclass[a4paper,12pt]{article}
+%\documentclass[a4paper,12pt,twoside]{article}
 \usepackage[ngerman]{babel}
 \usepackage[nottoc]{tocbibind} % Anzeigen des Literaturverzeichnisses im TOC
 \usepackage{epsfig}
@@ -40,6 +40,18 @@
 
 % http://blog.lewumpy.de/2011/01/latex-vorlage-fur-deutsches-literaturverzeichnis-und-zitierstil/
 \usepackage{natbib}
+
+% http://arthur-schiwon.de/formatierung-von-tabellen-und-abbildungsverzeichnis-mit-latex
+\usepackage{tocloft}
+\renewcommand{\cftfigpresnum}{Abb. }
+\renewcommand{\cfttabpresnum}{Tab. }
+\renewcommand{\cftfigaftersnum}{:}
+\renewcommand{\cfttabaftersnum}{:}
+\setlength{\cftfignumwidth}{2cm}
+\setlength{\cfttabnumwidth}{2cm}
+\setlength{\cftfigindent}{0cm}
+\setlength{\cfttabindent}{0cm}
+
 
 \newif\iflistoffigures
 \newif\iflistoftables
@@ -69,6 +81,10 @@
 \pagenumbering{roman}
 
 \begin{document}
+
+% http://arthur-schiwon.de/formatierung-von-tabellen-und-abbildungsverzeichnis-mit-latex
+\renewcommand{\figurename}{Abb.}
+\renewcommand{\tablename}{Tab.}
 	
 \parskip=1em
 \parindent=0cm
